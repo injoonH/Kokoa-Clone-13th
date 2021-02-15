@@ -1,0 +1,95 @@
+.more-container {
+    padding: 0 1rem;
+}
+
+.user {
+    border-radius: 0.4rem;
+    border: 1px solid var(--clr-achromatic-250);
+    background-color: var(--clr-achromatic-200);
+    margin-bottom: 2rem;
+}
+
+.user > * {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user i {
+    color: var(--clr-achromatic-350);
+}
+
+.user__info {
+    border-bottom: 1px solid var(--clr-achromatic-250);
+}
+
+.user__info > i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.user__info__name {
+    font-size: 1rem;
+    font-weight: var(--ff-bold);
+    margin-bottom: 0.3rem;
+}
+
+.user__info__mail {
+    font-size: 0.9rem;
+    color: var(--clr-achromatic-350);
+}
+
+.user__wallet {
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.user__wallet:hover {
+    background-color: var(--clr-achromatic-250);
+}
+
+.shortcuts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 1rem;
+}
+
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    cursor: pointer;
+    color: var(--clr-achromatic-500);
+}
+
+.shortcut:hover {
+    color: var(--clr-achromatic-700);
+}
+
+.shortcut > i {
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+    color: inherit;
+}
+
+.shortcut > h4 {
+    font-size: 0.8rem;
+    font-weight: var(--ff-light);
+    color: inherit;
+}
+
+.tips {
+    display: flex;
+    font-size: 0.9rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--clr-achromatic-250);
+    margin-bottom: 2rem;
+}
+
+.tips > h3 {
+    margin-right: 0.6rem;
+    font-weight: var(--ff-bold);
+}
