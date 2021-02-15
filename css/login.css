@@ -11,6 +11,25 @@
     filter: opacity(20%);
 }
 
+.login-header {
+    position: fixed;
+    top: 0.7rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.login-header > i {
+    color: var(--clr-yellow-600);
+    cursor: pointer;
+    padding: 0.2rem;
+}
+
+.login-header > i:hover {
+    color: var(--clr-yellow-800);
+}
+
 .login-main {
     position: absolute;
     top: 50%;

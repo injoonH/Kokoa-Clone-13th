@@ -1,0 +1,32 @@
+.left-nav,
+.left-nav > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    justify-content: space-between;
+    background-color: var(--clr-achromatic-250);
+    padding: 1rem 0;
+}
+
+.left-nav > section > i {
+    font-size: 1.5rem;
+    padding: 1rem 1.4rem;
+    color: var(--clr-achromatic-350);
+    cursor: pointer;
+}
+
+.left-nav > section > i:hover {
+    color: var(--clr-achromatic-500);
+}
+
+.left-nav > section > .left-nav-focused,
+.left-nav > section > .left-nav-focused:hover {
+    color: var(--clr-achromatic-700);
+}
