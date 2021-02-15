@@ -3,7 +3,8 @@
 :root {
     --clr-yellow-400: #ffdc22;
     --clr-yellow-600: #9b8723;
-    --clr-yellow-800: #725e26;
+    --clr-yellow-700: #594941;
+    --clr-yellow-800: #423630;
 
     --clr-achromatic-100: #ffffff;
     --clr-achromatic-200: #f6f6f6;
@@ -94,9 +95,9 @@ main,
 }
 
 .profile-img {
-    width: 6rem;
+    width: 6.5rem;
+    height: 6.5rem;
     border-radius: 40%;
-    border: 1px solid #cccccc;
 }
 
 .profile > h4 {
@@ -130,6 +131,18 @@ main > h2 {
 
 .login-submit {
     background-color: var(--clr-achromatic-200);
+    pointer-events: none;
+}
+
+.login-submit-activated {
+    pointer-events: all;
+    background-color: var(--clr-yellow-800);
+    color: var(--clr-achromatic-200);
+    cursor: pointer;
+}
+
+.login-submit-activated:hover {
+    background-color: var(--clr-yellow-700);
 }
 
 main > h3 {
