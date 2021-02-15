@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&display=swap");
+
+:root {
+    --clr-yellow-400: #ffdc22;
+    --clr-yellow-600: #9b8723;
+    --clr-yellow-800: #725e26;
+
+    --clr-achromatic-100: #ffffff;
+    --clr-achromatic-200: #f6f6f6;
+    --clr-achromatic-300: #b7b7b7;
+    --clr-achromatic-900: #262626;
+
+    --ff-light: 200;
+    --ff-regular: 500;
+    --ff-bold: 800;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: var(--ff-regular);
+    color: var(--clr-achromatic-900);
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.login-body {
+    background-color: var(--clr-yellow-400);
+}
+
+.background-img {
+    position: fixed;
+    height: 100vmin;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: opacity(20%);
+}
+
+header {
+    position: fixed;
+    top: 0.7rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+header > section {
+    display: flex;
+    justify-content: center;
+}
+
+header > span {
+    width: 1px;
+    height: 1rem;
+    background-color: var(--clr-yellow-600);
+}
+
+header i {
+    color: var(--clr-yellow-600);
+    cursor: pointer;
+    padding: 0.2rem;
+}
+
+header i:hover {
+    color: var(--clr-yellow-800);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main,
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    margin-bottom: 2rem;
+}
+
+.profile-img {
+    width: 6rem;
+    border-radius: 40%;
+    border: 1px solid #cccccc;
+}
+
+.profile > h4 {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+}
+
+main > h2 {
+    font-weight: var(--ff-bold);
+    font-size: 1.2rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.7rem;
+}
+
+.login-password,
+.login-submit {
+    width: 20rem;
+    font-size: 1.05rem;
+    padding: 0.5rem 0.4rem;
+}
+
+.login-password {
+    margin-bottom: 0.7rem;
+    background-color: var(--clr-achromatic-100);
+}
+
+.login-submit {
+    background-color: var(--clr-achromatic-200);
+}
+
+main > h3 {
+    margin-top: 6rem;
+    text-align: center;
+    cursor: pointer;
+}
