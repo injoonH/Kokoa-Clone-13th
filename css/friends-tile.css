@@ -30,7 +30,13 @@
     color: var(--clr-achromatic-300);
 }
 
-.friends-tile__music {
+.friends-tile__chats {
+    font-size: 0.88rem;
+    color: var(--clr-achromatic-500);
+}
+
+.friends-tile__music,
+.friends-tile__date {
     position: absolute;
     right: 1rem;
     display: flex;
@@ -38,6 +44,9 @@
     align-items: center;
     font-size: 0.75rem;
     font-weight: var(--ff-light);
+}
+
+.friends-tile__music {
     padding: 0.3rem 0.5rem;
     border-radius: 1rem;
     border: 1px solid var(--clr-green);
@@ -48,6 +57,10 @@
     margin-left: 0.3rem;
     font-size: 0.6rem;
     color: var(--clr-green);
+}
+
+.friends-tile__date {
+    color: var(--clr-achromatic-350);
 }
 
 .my-profile > .friends-tile__img {
