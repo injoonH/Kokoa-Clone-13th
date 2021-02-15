@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: var(--ff-regular);
+    color: var(--clr-achromatic-900);
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,87 @@
+.login-body {
+    background-color: var(--clr-yellow-400);
+}
+
+.background-img {
+    position: fixed;
+    height: 100vmin;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: opacity(20%);
+}
+
+.login-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-main,
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    margin-bottom: 2rem;
+}
+
+.profile-img {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 40%;
+}
+
+.profile > h4 {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+}
+
+.login-main > h2 {
+    font-weight: var(--ff-bold);
+    font-size: 1.2rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.7rem;
+}
+
+.login-password,
+.login-submit {
+    width: 20rem;
+    font-size: 1.05rem;
+    padding: 0.5rem 0.4rem;
+}
+
+.login-password {
+    margin-bottom: 0.7rem;
+    background-color: var(--clr-achromatic-100);
+}
+
+.login-submit {
+    background-color: var(--clr-achromatic-200);
+    pointer-events: none;
+}
+
+.login-submit-activated {
+    pointer-events: all;
+    background-color: var(--clr-yellow-800);
+    color: var(--clr-achromatic-200);
+    cursor: pointer;
+}
+
+.login-submit-activated:hover {
+    background-color: var(--clr-yellow-700);
+}
+
+.login-main > h3 {
+    margin-top: 6rem;
+    text-align: center;
+    cursor: pointer;
+}
