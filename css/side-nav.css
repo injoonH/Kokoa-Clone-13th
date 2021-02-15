@@ -13,6 +13,7 @@
     justify-content: space-between;
     background-color: var(--clr-achromatic-250);
     padding: 1rem 0;
+    z-index: 10;
 }
 
 .left-nav > section > i {

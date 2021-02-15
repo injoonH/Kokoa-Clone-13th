@@ -1,0 +1,56 @@
+.friends-tile {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    background-color: var(--clr-achromatic-100);
+}
+
+.friends-tile:hover {
+    background-color: var(--clr-achromatic-200);
+}
+
+.friends-tile__img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 40%;
+    margin-right: 0.8rem;
+    cursor: pointer;
+}
+
+.friends-tile__name {
+    font-size: 0.95rem;
+    font-weight: var(--ff-bold);
+    margin-bottom: 0.3rem;
+}
+
+.friends-tile__comment {
+    font-size: 0.88rem;
+    color: var(--clr-achromatic-300);
+}
+
+.friends-tile__music {
+    position: absolute;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: var(--ff-light);
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--clr-green);
+    cursor: pointer;
+}
+
+.friends-tile__music > i {
+    margin-left: 0.3rem;
+    font-size: 0.6rem;
+    color: var(--clr-green);
+}
+
+.my-profile > .friends-tile__img {
+    width: 3.6rem;
+    height: 3.6rem;
+}

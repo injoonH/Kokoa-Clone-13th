@@ -1,0 +1,18 @@
+.friends-container {
+    margin-top: 4.19925rem;
+    margin-left: 4.2995rem;
+}
+
+.friends-container > article > h3 {
+    margin: 0 1rem;
+    color: var(--clr-achromatic-500);
+    font-size: 0.8rem;
+    font-weight: var(--ff-light);
+    padding-top: 0.9rem;
+    padding-bottom: 0.4rem;
+    border-top: 1px solid var(--clr-achromatic-250);
+}
+
+.friends-container > article {
+    padding-bottom: 0.6rem;
+}

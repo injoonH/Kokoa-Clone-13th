@@ -5,7 +5,6 @@
     --clr-yellow-800: #423630;
 
     --clr-achromatic-100: #ffffff;
-    --clr-achromatic-100: #acadb1;
     --clr-achromatic-200: #f6f6f6;
     --clr-achromatic-250: #ececed;
     --clr-achromatic-300: #b7b7b7;
@@ -13,6 +12,8 @@
     --clr-achromatic-500: #909297;
     --clr-achromatic-700: #343740;
     --clr-achromatic-900: #262626;
+
+    --clr-green: #15d24d;
 
     --ff-light: 200;
     --ff-regular: 500;
