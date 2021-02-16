@@ -19,6 +19,14 @@
     cursor: pointer;
 }
 
+.friends-tile > div,
+.friends-tile__name,
+.friends-tile__comment,
+.friends-tile__chats,
+.friends-tile__date {
+    pointer-events: none;
+}
+
 .friends-tile__name {
     font-size: 0.95rem;
     font-weight: var(--ff-bold);
