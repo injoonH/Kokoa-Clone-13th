@@ -48,7 +48,7 @@
     transform: translate(0, -0.06rem);
 }
 
-.profile-header > i {
+.profile-header > a > i {
     font-size: 1.2rem;
     color: var(--clr-achromatic-100);
     cursor: pointer;
