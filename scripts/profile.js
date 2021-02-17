@@ -7,7 +7,7 @@ Array.from(profileImgs).forEach((element) => {
             "friends-tile__name"
         )[0].innerText;
         window.open(
-            `../profiles/profile-${name.toLowerCase()}.html`,
+            `../Kokoa-Clone-13th/profiles/profile-${name.toLowerCase()}.html`,
             `Profile | ${name}`,
             "width=450, height=680"
         );
