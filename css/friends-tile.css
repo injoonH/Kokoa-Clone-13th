@@ -71,6 +71,7 @@
     background-color: var(--clr-non-read);
     color: var(--clr-achromatic-100);
     font-size: 0.8rem;
+    animation: pulse 2s infinite;
 }
 
 .friends-tile__music {
