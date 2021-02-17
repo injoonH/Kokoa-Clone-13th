@@ -54,6 +54,25 @@
     font-weight: var(--ff-light);
 }
 
+.friends-tile__date {
+    top: 1rem;
+}
+
+.friends-tile__non-read-tag {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-non-read);
+    color: var(--clr-achromatic-100);
+    font-size: 0.8rem;
+}
+
 .friends-tile__music {
     padding: 0.3rem 0.5rem;
     border-radius: 1rem;

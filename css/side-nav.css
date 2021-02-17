@@ -16,6 +16,10 @@
     z-index: 10;
 }
 
+.left-nav a {
+    position: relative;
+}
+
 .left-nav > section i {
     font-size: 1.5rem;
     padding: 1rem 1.4rem;
@@ -30,4 +34,19 @@
 .left-nav > section .left-nav-focused,
 .left-nav > section .left-nav-focused:hover {
     color: var(--clr-achromatic-700);
+}
+
+.left-nav__non-read-tag {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-non-read);
+    color: var(--clr-achromatic-100);
+    font-size: 0.8rem;
 }
