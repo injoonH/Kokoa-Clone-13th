@@ -1,12 +1,28 @@
 #bulbasaur-body {
     background-color: var(--clr-wallpaper-bulbassaur);
 }
+#charmander-body {
+    background-color: var(--clr-wallpaper-charmander);
+}
+#ditto-body {
+    background-color: var(--clr-wallpaper-ditto);
+}
+#eevee-body {
+    background-color: var(--clr-wallpaper-eevee);
+}
+#mew-body {
+    background-color: var(--clr-wallpaper-mew);
+}
+#squirtle-body {
+    background-color: var(--clr-wallpaper-squirtle);
+}
 
 .chat-bg-img {
     position: fixed;
-    bottom: 0;
+    bottom: 6rem;
     right: 0;
     max-width: 100vmin;
+    z-index: -10;
 }
 
 .chat-header {
@@ -16,8 +32,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.6rem 1rem;
+    background-color: inherit;
+}
+
+.chat-header-filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: #9b9b9b63;
+    z-index: -1;
 }
 
 .chat-header > section {
@@ -67,7 +93,7 @@
     background-color: var(--clr-achromatic-500);
 }
 
-.chat-header > div {
+.chat-header__bars {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
@@ -80,11 +106,84 @@
     transform: translate(0, 1rem);
 }
 
-.chat-header > div:hover {
+.chat-header__bars:hover {
     color: #333333b9;
     background-color: #1414144d;
 }
 
-.chat-header > div > i {
+.chat-header__bars > i {
     color: inherit;
+}
+
+.chat-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--clr-achromatic-100);
+}
+
+.chat-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.chat-form > input {
+    width: calc(100% - 4.5rem);
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+.chat-form > button {
+    padding: 0.2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-footer > section {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0.7rem;
+}
+
+.chat-footer > section > i {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    color: var(--clr-achromatic-300);
+    cursor: pointer;
+}
+
+.chat-footer > section > i:hover {
+    color: var(--clr-achromatic-700);
+}
+
+.chat-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 4.2rem;
+    margin-bottom: 5.8rem;
+}
+
+.chat-list {
+    display: flex;
+}
+
+.chat-list > section > p {
+    padding: 0.4rem;
+    max-width: 30ch;
+}
+
+.chat-list__my-chat > p {
+    border-radius: 0.3rem 0.3rem 0 0.3rem;
+    background-color: var(--clr-yellow-400);
+}
+
+.chat-list__op-chat > p {
+    border-radius: 0.3rem 0.3rem 0.3rem 0;
+    background-color: var(--clr-achromatic-100);
 }
