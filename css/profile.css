@@ -1,0 +1,120 @@
+.profile-body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-achromatic-300);
+}
+
+.profile-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.profile-header > section {
+    display: flex;
+}
+
+.profile-header div {
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    background: none;
+    border: 1px solid var(--clr-achromatic-100);
+    color: var(--clr-achromatic-100);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile-header div:hover {
+    border-color: var(--clr-yellow-400);
+    color: var(--clr-yellow-400);
+}
+
+.profile-header div > i {
+    color: inherit;
+    font-size: 0.8rem;
+}
+
+.profile-header .fa-star {
+    transform: translate(0, -0.06rem);
+}
+
+.profile-header > i {
+    font-size: 1.2rem;
+    color: var(--clr-achromatic-100);
+    cursor: pointer;
+}
+
+.profile-main {
+    position: fixed;
+    width: 100%;
+    bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--clr-achromatic-100);
+}
+
+.profile-main > img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 40%;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+.profile-main > h3 {
+    font-size: 1.2rem;
+    color: inherit;
+    margin-bottom: 0.4rem;
+}
+
+.profile-main > h4 {
+    font-size: 0.95rem;
+    font-weight: var(--ff-light);
+    color: inherit;
+}
+
+.profile-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid var(--clr-achromatic-250);
+}
+
+.profile-footer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--clr-achromatic-100);
+    padding: 1.8rem 0;
+    cursor: pointer;
+    width: 33%;
+}
+
+.profile-footer a:hover {
+    color: var(--clr-achromatic-250);
+}
+
+.profile-footer i {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+    color: inherit;
+}
+
+.profile-footer h4 {
+    font-size: 0.9rem;
+    color: inherit;
+}
