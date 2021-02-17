@@ -34,6 +34,7 @@
     align-items: center;
     padding: 0.6rem 1rem;
     background-color: inherit;
+    z-index: 10;
 }
 
 .chat-header-filter {
@@ -141,6 +142,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--clr-yellow-400);
+    border-radius: 0.2rem;
+}
+
+.chat-form > button:hover {
+    background-color: var(--clr-yellow-500);
 }
 
 .chat-footer > section {
@@ -164,18 +171,25 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
     margin-top: 4.2rem;
     margin-bottom: 5.8rem;
+    padding: 1rem;
 }
 
-.chat-list {
+.chat-list > section {
     display: flex;
+    margin-bottom: 0.5rem;
+    align-items: flex-end;
+}
+
+.chat-list__my-chat {
+    justify-content: flex-end;
 }
 
 .chat-list > section > p {
     padding: 0.4rem;
     max-width: 30ch;
+    line-height: 1.18rem;
 }
 
 .chat-list__my-chat > p {
@@ -186,4 +200,9 @@
 .chat-list__op-chat > p {
     border-radius: 0.3rem 0.3rem 0.3rem 0;
     background-color: var(--clr-achromatic-100);
+}
+
+.chat-list__time {
+    font-size: 0.85rem;
+    padding: 0 0.3rem;
 }
